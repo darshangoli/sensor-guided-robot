@@ -4,19 +4,31 @@ Large line follower robots are usually used in industries for assisting the auto
 Line follower Robot is one of the first robots that beginners and students would get their first robotic experience with. In this project, we have designed a simple Line Follower Robot using Arduino and some other components.
  
 Components Required
+
 •	Arduino UNO (or Arduino Nano)
+
 •	L293D Motor Driver IC 
+
 •	Geared Motors x 2 
+
 •	Robot Chassis 
+
 •	IR Sensor Module x 2
+
 •	Black Tape (Electrical Insulation Tape)
+
 •	Connecting Wires
+
 •	Power supply 
+
 •	Battery Connector
+
 •	Battery Holder
-•	The line follower robot built in this project is divided in to 4 blocks. The following image shows the block diagram for line follower robot.
-•	 
+
+•	The line follower robot built in this project is divided in to 4 blocks. The following image shows the block diagram for line follower robot.	 
+
 •	Block Diagram Description
+
 •	Sensors (IR Sensor): We have used IR Sensor Module as the line detecting sensor for the project. It consists of an IR LED and a Photo diode and some other components like comparator, LED etc.
 
 As mentioned earlier, we have used a pre – assembled IR Sensor. In case you do not have one, you can make your own sensor using the following circuit.
@@ -39,13 +51,20 @@ When the robot moves forward, both the sensors wait for the line to be detected.
 Arduino UNO detects this change and sends signal to motor driver accordingly. In order to turn right, the motor on the right side of the robot is slowed down using PWM, while the motor on the left side is run at normal speed.
 Similarly, when the IR Sensor 2 detects the black line first, it means that there is a left curve ahead and the robot has to turn left. For the robot to turn left, the motor on the left side of the robot is slowed down (or can be stopped completely or can be rotated in opposite direction) and the motor on the right side is run at normal speed.
 Arduino UNO continuously monitors the data from both the sensors and turns the robot as per the line detected by them.
+
 Note:
+
 •	In order to increase the efficiency of black line detection, number of sensors can be increased. An array of sensors will be more accurate than just two sensors.
+
 •	In this project (where two sensors are used), the positioning of the sensors is very important. The width of the black line plays a major role in the placement of the sensors.
+
 •	The sensor to detect the line can also be constructed using an LED and LDR pair.
 Applications of Line Follower Robot
+
 •	Line follower Robots are commonly used for automation process in industries, military applications and consumer applications.
+
 •	They are very useful as they can work without any supervision i.e. they work as automatic guided vehicles.
+
 •	With additional features like obstacle avoidance and other security measures, line follower robots can be used in driver less cars. 
 
  
