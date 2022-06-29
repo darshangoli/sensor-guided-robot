@@ -49,7 +49,7 @@ Applications of Line Follower Robot
 •	With additional features like obstacle avoidance and other security measures, line follower robots can be used in driver less cars. 
 
  
--	Darshan Goli
--	Roopesh Reddy P
--	Charan Sri Teja Busala
--	Surya Rayudu Katreddy
+--	Darshan Goli
+--	Roopesh Reddy P
+--	Charan Sri Teja Busala
+--	Surya Rayudu Katreddy
